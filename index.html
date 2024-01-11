@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Guessing Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Color Guessing Game</h1>
+        <div class="color-to-guess" id="color-to-guess"> <!-- Corrected class attribute -->
+            <!-- Display the target color here -->
+        </div>
+        <div class="options">
+            <!-- Options will be generated dynamically using JavaScript -->
+        </div>
+        <div class="scoreboard">
+            <p>Score: <span id="score">0</span></p>
+            <p>Total Guesses: <span id="total-guesses">0</span></p>
+            <p>Wrong Guesses: <span id="wrong-guesses">0</span></p>
+            <p>Chances Left: <span id="chances-left">15</span></p> <!-- Added display for chances left -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
